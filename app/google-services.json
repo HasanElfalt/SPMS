@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "307308702032",
+    "firebase_url": "https://spms-bb38e.firebaseio.com",
+    "project_id": "spms-bb38e",
+    "storage_bucket": "spms-bb38e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307308702032:android:30ed78cb20b64185",
+        "android_client_info": {
+          "package_name": "com.example.android.spms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307308702032-ecsmf6fm35q0a3ihrd2ebge733ov06ms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.spms",
+            "certificate_hash": "9337f6aa4007b27ade838b1720428f26c7b12a39"
+          }
+        },
+        {
+          "client_id": "307308702032-7dt260ok5p7aonpsen29143vdl5sdnth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOItek2ueqhytLKPnytLMOPVLAqf-kdUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307308702032-7dt260ok5p7aonpsen29143vdl5sdnth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
