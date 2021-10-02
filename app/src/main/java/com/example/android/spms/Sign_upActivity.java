@@ -44,22 +44,22 @@ public class Sign_upActivity extends AppCompatActivity {
         passwordText        = password.getText().toString();
         confirmPasswordText = confirmPassword.getText().toString();
 
-        if(userNameText.isEmpty() || userNameText == " "){
+        if(userNameText.isEmpty() || userNameText.equals(" ")){
 
             userName.setError("Fill here please");
             return;
         }
-        if(emailText.isEmpty() || emailText == " "){
+        if(emailText.isEmpty() || emailText.equals(" ")){
 
             email.setError("Fill here please");
             return;
         }
-        if(passwordText.isEmpty() || passwordText == " "){
+        if(passwordText.isEmpty() || passwordText.equals(" ")){
 
             password.setError("Fill here please");
             return;
         }
-        if(confirmPasswordText.isEmpty() || confirmPasswordText == " "){
+        if(confirmPasswordText.isEmpty() || confirmPasswordText.equals(" ")){
 
             confirmPassword.setError("Fill here please");
             return;
@@ -89,7 +89,7 @@ public class Sign_upActivity extends AppCompatActivity {
 
                             Log.e("try", "createUserWithEmail:failure", task.getException());
 
-                            Toast.makeText(Sign_upActivity.this,"SomethingWrong",Toast.LENGTH_LONG).show();
+                            Toast.makeText(Sign_upActivity.this,task.toString(),Toast.LENGTH_LONG).show();
 
                         }
 

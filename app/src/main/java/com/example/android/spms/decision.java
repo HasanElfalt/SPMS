@@ -288,7 +288,6 @@ public class decision extends AppCompatActivity implements GoogleApiClient.Conne
                 @Override
                 public void onResult(LocationSettingsResult result) {
                     final Status status = result.getStatus();
-                    final LocationSettingsStates state = result.getLocationSettingsStates();
                     switch (status.getStatusCode()) {
                         case LocationSettingsStatusCodes.SUCCESS:
                             toast("Success");
